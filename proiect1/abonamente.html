@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Abonamente</title>
+	<link rel="stylesheet" type="text/css" href="proiect.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+<header>
+        <h1 id = "asdf">Iron Gym</h1>
+    <nav>
+		<ul class = "dropdown">
+			<li class="dropbtn">MENIU DE NAVIGARE</li>
+				<ul class="dropdown-content">
+					<li><a href=proiect>Home</a></li>
+					<li><a href=abonamente>Abonamente</a></li>
+					<li><a href=locatie>Locatie si contact</a></li>
+					<li><a href=galerie>Galerie</a></li>
+					<li><a href=cerinte>cerinte</a></li>
+				</ul>
+		</ul>
+    </nav>
+			<h3>Register:</h3>
+			<form  method="post">
+				<label>
+					Username: <input type="text" name="username" value="">
+				</label>
+				<label>
+					Parola: <input type="password" name="parola" value="">
+				</label>	
+				<label>
+					Phone: <input type="number" name="phone" value="">
+				</label>
+				<label>
+					<br>
+					Age: <input type="number" name="age" value="">
+				</label>
+				<label>
+					Nickname: <input type="text" name="nickname" value="">
+				</label>
+				<input type="submit" value="Submit">
+			</form>
+	
+	</header>
+<section>
+	<!--
+	<div id = "search">
+			<button  class = "bt" alt="" onclick="afisModif()">Search</button> 
+	</div>
+	-->
+        <table  id = "tabela">
+            <tr>
+                <th>Tip</th>
+				<th>Valabilitate</th>
+                <th>Cost</th>
+            </tr>
+            <tr>
+                <td>Copper</td>
+                <td>liber 30 de zile</td>
+				<td>150 Ron</td>
+            </tr>
+            <tr>
+                <td>Silver</td>
+                <td>liber 60 de zile</td>
+				<td>280 Ron</td>
+            </tr>
+            <tr>
+                <td>Gold</td>
+                <td>liber 90 zile + 3 sedinte antrenor personal gratuite</td>
+				<td>420 Ron</td>
+            </tr>
+            <tr>
+                <td>Platinum</td>
+                <td>Un an + 5 sedinte antrenor personal gratuie</td>
+				<td>800 Ron</td>
+            </tr>
+        </table>
+    </section>
+	<div>
+		<!--
+	<h3>Atentie!</h3>
+	<ul>
+	<li>Sedintele cu antrenorii personali trebuie programate cu minim 48 de ore inainte.</li>
+	<li>O sedinta dureaza o ora si 30 de minute.</li>
+	<li>Pentru rezervare vorbiti direct cu antrenorul dorit.</li>
+	</ul>
+	</div>
+	-->
+	<script src = "javaAb.js"></script>
+</body>
+</html>

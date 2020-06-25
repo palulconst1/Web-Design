@@ -1,0 +1,40 @@
+{
+"abonamente":[
+ {
+    "id": 1,
+    "tip": "Copper",
+	"descriere": "Abonament Sala",
+	"pret": 150,
+	"durata":30,
+    "antrenor": 0
+  },
+ 
+  {
+    "id": 2,
+    "tip": "Silver",
+	"descriere": "Abonament Sala",
+	"pret": 280,
+	"durata":60,
+    "antrenor": 0
+  },
+
+  {
+    "id": 3,
+    "tip": "Gold",
+	"descriere": "Abonament Sala",
+	"pret": 420,
+	"durata":90,
+    "antrenor": 3
+  },
+
+  {
+    "id": 4,
+    "tip": "Platinum",
+	"descriere": "Abonament Sala",
+	"pret": 800,
+	"durata":30,
+    "antrenor": false
+  }
+
+]
+}
